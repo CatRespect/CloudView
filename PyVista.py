@@ -46,8 +46,8 @@ plotter.set_background("black")
 
 # Выбери один scalar по умолчанию
 default_scalar = (
-    "intensity_calibrated"
-    if "intensity_calibrated" in cloud.array_names
+    "segmentation_level_obstacle"
+    if "segmentation_level_obstacle" in cloud.array_names
     else cloud.array_names[0]
 )
 
